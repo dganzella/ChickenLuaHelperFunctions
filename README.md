@@ -2,7 +2,7 @@
 Helper functions for array, string and table in lua
 
 
-#Array
+## Array
 
 ```
 arrMap(arr, f)
@@ -18,7 +18,7 @@ arrReduce(arr, initial, f)
 arrSome(arr, f)
 ```
 
-#String
+## String
 
 ```
 strCharAt(inputstr, at)
@@ -35,7 +35,7 @@ strReplace(inputstr, target, replacement)
 strMultiReplace(inputstr, targets, replacement)
 ```
 
-#Table
+## Table
 
 
 ```
