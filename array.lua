@@ -108,6 +108,7 @@ end
 ---@param arr any[]
 ---@param initial any?
 ---@param f function
+---@return any?
 function arrReduce(arr, initial, f)
 	local ret = initial
 	for i = 1, #arr do
